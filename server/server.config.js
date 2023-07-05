@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: `/server/`,
-    bare: `/https://hideip.cloudflared.cf/`,
+    bare: https://hideip.cloudflared.cf,
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/server/server.handler.js',
